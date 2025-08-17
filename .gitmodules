@@ -1,0 +1,3 @@
+[submodule "NanoKit"]
+	path = NanoKit
+	url = https://github.com/sebhalldesigns/NanoKit.git

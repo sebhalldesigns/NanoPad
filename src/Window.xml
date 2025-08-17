@@ -1,0 +1,25 @@
+<Window Title="NanoPad" Height="600" Width="800">
+    <DockPanel>
+
+        <DockPanel Background="#202020" DockPanel.Dock="Top" Height="50">
+            <Button Background="Magenta" DockPanel.Dock="Left" Click="OpenFileButtonClick">
+                Open File
+            </Button>
+            <TextBlock>
+            </TextBlock>
+        </DockPanel>
+
+        <DockPanel Background="#202020" DockPanel.Dock="Bottom" Height="25">
+            <TextBlock Foreground="White" VerticalAlignment="Center">
+                NanoPad Editor
+            </TextBlock>
+        </DockPanel>
+
+        <ScrollViewer Background="Black">
+            <StackPanel Orientation="Vertical" Name="FileStackPanel">
+       
+            </StackPanel>
+        </ScrollViewer>
+
+    </DockPanel>
+</Window>                
